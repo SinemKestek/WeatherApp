@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,400&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,800;1,300&family=Raleway:wght@300;400&display=swap');
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -5,8 +8,11 @@
   text-align: center;
 }
 body{
+  font-family: 'Lora', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
  background-color:rgb(4, 5, 19) ;
- color: rgba(145, 216, 238, 0.87);
+ color: rgba(240, 122, 93, 0.87);
 }
 
 .app-container{
@@ -19,11 +25,13 @@ body{
   display: flex;
   flex-wrap: wrap;
  border-bottom : 1px solid brown;
- background-color: rgba(71, 69, 69, 0.192);
+
 }
 .day-container{
-  margin: 0 20px;
+  border-radius: 10px;
+  margin: 10px 20px;
   padding: 1.2rem;
+  box-shadow: rgba(95, 85, 85, 0.445) 0px 5px 15px;
 }
 .app-title{
   font-size:47px ;
@@ -40,4 +48,5 @@ body{
 }
 .day-text,.temperature{
   color: beige;
+
 }

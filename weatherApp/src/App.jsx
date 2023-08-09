@@ -46,7 +46,7 @@ const handleLocationChange=(event)=>{
         
            <img src={day.day.condition.icon}  className='weather-icon'/>
            <h2 className='date'>{day.date}</h2>
-           <p className='temperature'>{day.day.avgtemp_c}</p>
+           <p className='temperature'>{day.day.avgtemp_c}C</p>
            <p className='day-text'>{day.day.condition.text}</p>
 
  
