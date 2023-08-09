@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body{
+ background-color:rgb(4, 5, 19) ;
+ color: rgba(145, 216, 238, 0.87);
+}
+
+.app-container{
+  max-width:600px;
+  margin:0 auto;
+  padding:30px;
+  
+}
+.weather-container{
+  display: flex;
+  flex-wrap: wrap;
+ border-bottom : 1px solid brown;
+ background-color: rgba(71, 69, 69, 0.192);
+}
+.day-container{
+  margin: 0 20px;
+  padding: 1.2rem;
+}
+.app-title{
+  font-size:47px ;
+  margin-bottom:27px;
+}
+.input-container{
+  margin-bottom: 18px;
+}
+.location-input{
+  padding: 14px;
+  width: 100%;
+  border-radius: 9px;
+  border:none
+}
+.day-text,.temperature{
+  color: beige;
+}
